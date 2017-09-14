@@ -11,6 +11,8 @@ type
     MainMenu: TMainMenu;
     panOutput: TPanel;
     lblOutput: TEdit;
+    btnCalc: TButton;
+    procedure btnCalcClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -23,5 +25,10 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.btnCalcClick(Sender: TObject);
+begin
+  ShowMessage('IS-1 Test Workflow Trigger to be implemented!');
+end;
 
 end.

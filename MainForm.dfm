@@ -21,9 +21,6 @@ object Form1: TForm1
     Height = 41
     Align = alTop
     TabOrder = 0
-    ExplicitLeft = 80
-    ExplicitTop = 48
-    ExplicitWidth = 185
     object lblOutput: TEdit
       Left = 16
       Top = 11
@@ -32,8 +29,17 @@ object Form1: TForm1
       TabOrder = 0
     end
   end
+  object btnCalc: TButton
+    Left = 8
+    Top = 47
+    Width = 75
+    Height = 25
+    Caption = 'Calculate'
+    TabOrder = 1
+    OnClick = btnCalcClick
+  end
   object MainMenu: TMainMenu
-    Left = 24
-    Top = 64
+    Left = 32
+    Top = 152
   end
 end
